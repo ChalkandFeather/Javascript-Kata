@@ -14,3 +14,5 @@ node magicEightBall.js
 Marie asked: Should I drink more tea?
 Magic Eight ball says: Do not count on it
 (or variations from switch statement)
+
+Race Day
