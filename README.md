@@ -16,3 +16,5 @@ Magic Eight ball says: Do not count on it
 (or variations from switch statement)
 
 Race Day
+by changing the raceDay variables
+const runnersAge = 17,18 or 19 it affects the condtional return statement
