@@ -15,3 +15,12 @@ test("plantNeedsWater should accept a string parameter", () => {
 test("if it is any other day of the week, the plant doesn't need to be watered", () => {
   expect(plantNeedsWater("Tuesday")).toBe(false);
 });
+
+test("if it's not Wednesday, the plant does not need to be watered", () => {
+  expect(plantNeedsWater("Monday")).toBe(false);
+  expect(plantNeedsWater("Tuesday")).toBe(false);
+  expect(plantNeedsWater("Thursday")).toBe(false);
+  expect(plantNeedsWater("Friday")).toBe(false);
+  expect(plantNeedsWater("Saturday")).toBe(false);
+  expect(plantNeedsWater("Sunday")).toBe(false);
+});
