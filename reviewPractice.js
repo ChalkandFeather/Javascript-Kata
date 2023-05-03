@@ -6,7 +6,7 @@ const spellChecker = function (sentence, wordBank) {
   const words = sentence.split(" ");
   const newSentence = [];
   const checkedWords = words.map((word) => {
-    if (wordBank.includes(word)) {
+    if (!wordBank.includes(word)) {
       newSentence.push(`~${word}~`);
     } else {
       newSentence.push(word);
