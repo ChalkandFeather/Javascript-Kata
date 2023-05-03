@@ -12,5 +12,6 @@ const plantNeedsWater = function (day) {
     return false;
   }
 };
+//extension function to calculate how many days until water from given day
 
 module.exports = plantNeedsWater;
