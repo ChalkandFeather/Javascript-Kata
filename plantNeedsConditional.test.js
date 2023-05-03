@@ -1,7 +1,7 @@
 const plantNeedsWater = require("./plantNeedsConditional");
 
 test("if it is Wednesday, the plant needs to be watered", () => {
-  expect(plantNeedsWater("Wednesday")).tobe(true);
+  expect(plantNeedsWater("Wednesday")).toBe(true);
 });
 
 // With this test, we're ensuring that our plantNeedsWater function only accepts a string parameter, and will throw an error if it's called with any other type of data.

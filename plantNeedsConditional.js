@@ -1,5 +1,13 @@
 const plantNeedsWater = function (day) {
-  // Implement conditional
+  if (typeof day !== "string") {
+    throw new Error("day must be a string");
+  }
+
+  if (day === "Wednesday") {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 module.exports = plantNeedsWater;
