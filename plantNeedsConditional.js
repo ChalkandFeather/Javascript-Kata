@@ -1,6 +1,6 @@
 const plantNeedsWater = function (day) {
   if (typeof day !== "string") {
-    console.Error("day must be a string");
+    console.log("day must be a string");
     throw new Error("day must be a string");
   }
 
