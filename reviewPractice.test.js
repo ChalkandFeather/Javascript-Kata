@@ -10,6 +10,13 @@ test("should not throw error if input is a string", () => {
 
 test("should replace misspelled word with a ~word~", () => {
   const wordBank = ["I", "like", "to", "eat", "and"];
+  expect(spellChecker("I like to eat appel", wordBank)).toEqual(
+    "I like to eat ~appel~"
+  );
+});
+
+test("should replace misspelled word with a ~word~", () => {
+  const wordBank = ["I", "like", "to", "eat", "and"];
   expect(spellChecker("I like to eat appel and peache", wordBank)).toEqual(
     "I like to eat ~appel~ and ~peache~"
   );
