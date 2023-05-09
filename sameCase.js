@@ -7,14 +7,11 @@ function sameCase(a, b) {
   ) {
     throw new Error("Input should contain two single string characters");
   }
-
-  // Rest of the logic to check if a and b are the same case
-  // ...
+  if (
+    a.toUpperCase() === a.toLowerCase() ||
+    b.toLowerCase() === b.toUpperCase()
+  )
+    return -1;
 }
-//   if (
-//     a.toUpperCase() === a.toLowerCase() ||
-//     b.toLowerCase() === b.toUpperCase()
-//   )
-//     return -1
 
 module.exports = sameCase;
