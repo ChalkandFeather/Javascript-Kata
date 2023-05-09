@@ -21,3 +21,10 @@ test("should replace misspelled word with a ~word~", () => {
     "I like to eat ~appel~ and ~peache~"
   );
 });
+
+test("should replace misspelled words case-insensitively", () => {
+  const wordBank = ["I", "like", "to", "eat", "and"];
+  expect(spellChecker("I LIke to eAT apPle and BananAs", wordBank)).toEqual(
+    "I ~LIke~ to ~eAT~ ~apPle~ and ~BananAs~"
+  );
+});
