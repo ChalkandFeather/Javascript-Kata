@@ -18,3 +18,7 @@ Magic Eight ball says: Do not count on it
 Race Day
 by changing the raceDay variables
 const runnersAge = 17,18 or 19 it affects the condtional return statement
+
+evenOrOdd
+Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+Kata
