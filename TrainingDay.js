@@ -16,23 +16,23 @@ const getRandEvent = () => {
 const getTrainingDays = (event) => {
   let days;
   if (event === "Marathon") {
-    let days = 50;
+    days = 50;
   } else if (event === "Triathlon") {
-    let days = 100;
+    days = 100;
   } else if (event === "Pentathlon") {
-    let days = 200;
+    days = 200;
   }
   return days;
 };
 
+const name = "Nola";
+
 // The scope of name is too tight
-const logEvent = (event) => {
-  const name = "Nola";
+const logEvent = (name, event) => {
   console.log(`${name}'s event is: ${event}`);
 };
 
-const logTime = (days) => {
-  const name = "Nola";
+const logTime = (name, days) => {
   console.log(`${name}'s time to train is: ${days} days`);
 };
 
