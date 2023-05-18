@@ -29,3 +29,8 @@ Write a function that will check if two given characters are the same case.
     If either of the characters is not a letter, return -1
     If both characters are the same case, return 1
     If both characters are letters, but not the same case, return 0
+
+    Training Day - CODEACADEMY Ex.
+
+    As a seasoned althlete one of your favourite activities is running marathons. You use a service called Training Days that sends you a message for the event you signed up for and the days you have leftto train.
+    Since you also code, Training Days has asked you to help them solve a problem: The prog currently uses the worng scope for ti's variables. They know this can be troublesome as their service evolves. In this project you will make Training Days more more maintainbale and less error prone by fixing variable scopes.
