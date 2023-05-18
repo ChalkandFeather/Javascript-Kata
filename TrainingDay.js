@@ -1,19 +1,20 @@
 // The scope of 'random' is too loose
 
-const random = (random = Math.floor(Math.random() * 3));
+const random = Math.floor(Math.random() * 3);
 
 const getRandEvent = () => {
   if (random === 0) {
     return "Marathon";
   } else if (random === 1) {
     return "Triathlon";
-  } else if (random === 3) {
+  } else if (random === 2) {
     return "Pentathlon";
   }
 };
 
 // The scope of 'days' is too tight
 const getTrainingDays = (event) => {
+  let days;
   if (event === "Marathon") {
     let days = 50;
   } else if (event === "Triathlon") {
@@ -21,11 +22,10 @@ const getTrainingDays = (event) => {
   } else if (event === "Pentathlon") {
     let days = 200;
   }
-
   return days;
 };
 
-// The scope of "name is too tight
+// The scope of name is too tight
 const logEvent = (event) => {
   const name = "Nola";
   console.log(`${name}'s event is: ${event}`);
@@ -38,4 +38,7 @@ const logTime = (days) => {
 
 const event = getRandEvent();
 const days = getTrainingDays(event);
-// define a 'name' variable. Use is as an arguement after updating logEvent and logTime
+// define a 'name' variable. Use it as an arguement after updating logEvent and logTime
+
+logEvent(event);
+logTime(days);
