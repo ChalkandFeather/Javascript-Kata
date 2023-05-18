@@ -40,5 +40,5 @@ const event = getRandEvent();
 const days = getTrainingDays(event);
 // define a 'name' variable. Use it as an arguement after updating logEvent and logTime
 
-logEvent(event);
-logTime(days);
+logEvent(name, event);
+logTime(name, days);
