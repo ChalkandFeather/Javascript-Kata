@@ -34,3 +34,15 @@ Write a function that will check if two given characters are the same case.
 
     As a seasoned althlete one of your favourite activities is running marathons. You use a service called Training Days that sends you a message for the event you signed up for and the days you have left to train.
     Since you also code, Training Days has asked you to help them solve a problem: The prog currently uses the wrong scope for it's variables. They know this can be troublesome as their service evolves. In this project you will make Training Days more  maintainbale and less error prone by fixing variable scopes.
+
+    Rock, Paper, Scissors - CODEACADEMY ex.
+    Rock paper scissors is a classic two player game.Each player chooses either Rock paper or scissors. The items are compared and whichever player chooses the more powerful item wins.
+    Possible outcomes: rock destroy scissors
+    scissors cut paper
+    paper covers rock
+    tie? game draw
+    Our code will break the game into four parts:
+    1.Get the user's choice
+    2.get the computers choice
+    3.Compare the tow choices and determine a winner.
+    4.Start the program and display the results.
