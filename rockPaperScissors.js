@@ -27,13 +27,18 @@ const determineWinner = (getUserChoice, getComputerChoice) => {
   if (getUserChoice === getComputerChoice) {
     return "This game is a  tie";
   }
-};
+  if (userChioice === "rock") {
+    if (getComputerChoice === "paper") return "Computer wins";
+  } else {
+    return "You win";
+  }
 
-// if (userChioice === "rock") {
-//   if (getComputerChoice === "paper") return console.log("Computer wins");
-// } else {
-//   return console.log("You win");
-// }
+  if (getUserChoice === "paper") {
+    if (getComputerChoice === "rock") return "You win";
+  } else {
+    return "Computer wins";
+  }
+};
 
 // const getComputerChoice = () => {
 //   const randomNumber = Math.floor(Math.random() * 3);
