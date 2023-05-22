@@ -41,6 +41,15 @@ const determineWinner = (getUserChoice, getComputerChoice) => {
   }
 };
 
+playGame = () => {
+  const userChoice = getUserChoice("rock");
+  console.log("You threw: " + userChoice);
+  const computerChoice = getComputerChoice();
+  console.log("The computer threw: " + computerChoice);
+
+  console.log(determineWinner(userChoice, computerChoice));
+};
+playGame();
 // const getComputerChoice = () => {
 //   const randomNumber = Math.floor(Math.random() * 3);
 //   if (randomNumber === 0) {
@@ -54,4 +63,4 @@ const determineWinner = (getUserChoice, getComputerChoice) => {
 
 // console.log(getUserChoice("paper"));
 // console.log(getComputerChoice());
-console.log(determineWinner("rock", "paper"));
+// console.log(determineWinner("rock", "paper"));
