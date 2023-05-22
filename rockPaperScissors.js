@@ -27,14 +27,15 @@ const determineWinner = (getUserChoice, getComputerChoice) => {
   if (getUserChoice === getComputerChoice) {
     return "This game is a  tie";
   }
-  if (userChioice === "rock") {
+
+  if (getUserChoice === "rock") {
     if (getComputerChoice === "paper") return "Computer wins";
   } else {
     return "You win";
   }
 
-  if (getUserChoice === "paper") {
-    if (getComputerChoice === "rock") return "You win";
+  if (getUserChoice === "scissors") {
+    if (getComputerChoice === "paper") return "You win";
   } else {
     return "Computer wins";
   }
@@ -53,4 +54,4 @@ const determineWinner = (getUserChoice, getComputerChoice) => {
 
 // console.log(getUserChoice("paper"));
 // console.log(getComputerChoice());
-console.log(determineWinner());
+console.log(determineWinner("rock", "paper"));
