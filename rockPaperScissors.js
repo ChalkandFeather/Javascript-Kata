@@ -23,6 +23,18 @@ const getComputerChoice = () => {
   }
 };
 
+const determineWinner = (getUserChoice, getComputerChoice) => {
+  if (getUserChoice === getComputerChoice) {
+    return "This game is a  tie";
+  }
+};
+
+// if (userChioice === "rock") {
+//   if (getComputerChoice === "paper") return console.log("Computer wins");
+// } else {
+//   return console.log("You win");
+// }
+
 // const getComputerChoice = () => {
 //   const randomNumber = Math.floor(Math.random() * 3);
 //   if (randomNumber === 0) {
@@ -35,7 +47,5 @@ const getComputerChoice = () => {
 // };
 
 // console.log(getUserChoice("paper"));
-console.log(getComputerChoice());
-console.log(getComputerChoice());
-console.log(getComputerChoice());
-console.log(getComputerChoice());
+// console.log(getComputerChoice());
+console.log(determineWinner());
