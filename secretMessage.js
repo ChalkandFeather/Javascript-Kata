@@ -26,4 +26,6 @@ let secretMessage = [
 ];
 
 secretMessage.pop();
-console.log(secretMessage.length);
+secretMessage.push("to", "program");
+
+console.log(secretMessage);
