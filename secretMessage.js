@@ -27,5 +27,6 @@ let secretMessage = [
 
 secretMessage.pop();
 secretMessage.push("to", "program");
+secretMessage[7] = "right";
 
 console.log(secretMessage);
