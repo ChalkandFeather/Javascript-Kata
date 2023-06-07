@@ -26,4 +26,4 @@ let secretMessage = [
 ];
 
 secretMessage.pop();
-console.log(secretMessage);
+console.log(secretMessage.length);
