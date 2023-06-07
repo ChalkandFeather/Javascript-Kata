@@ -45,8 +45,11 @@ Write a function that will check if two given characters are the same case.
     1.Get the user's choice
     2.get the computers choice
     3.Compare the tow choices and determine a winner.
-    4.Start the program and display the results.
+    4.Start the program and display the & results.
 
     Team-stats - CODEACADEMY ex.
     We want to create,retrieve and add information about your favourite sports team.  Basketball,soccer, tennis or water polo, you pick. Its your job to create data using the JavaScript data structures at your disposal:arrays and objects.
     After we create these data structures in this project- feel free to challenge yourself to gain insights from them. For e.g you might want to get the total number of games your team has payed or the average score of all their games.
+
+    Secret Message - CODEACADEMY ex.
+    using array methods, you will transform an array of strings into a secret message.
