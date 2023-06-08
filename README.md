@@ -51,5 +51,14 @@ Write a function that will check if two given characters are the same case.
     We want to create,retrieve and add information about your favourite sports team.  Basketball,soccer, tennis or water polo, you pick. Its your job to create data using the JavaScript data structures at your disposal:arrays and objects.
     After we create these data structures in this project- feel free to challenge yourself to gain insights from them. For e.g you might want to get the total number of games your team has payed or the average score of all their games.
 
-    Secret Message - CODEACADEMY ex.
+    Secret Message - CODEACADEMY ex. Arrays
     using array methods, you will transform an array of strings into a secret message.
+
+    Whale Talk - CODEACADEMY ex Loops
+    Take a phrase like 'turpentine and turtles' and translate it into it's whale talk equivalent: "UUEEIEEAUUEE".
+    there are a few simple rules for translating text to whale language:
+    1-There are no consonants
+    2- The u's and e's are extra long so we must double them in our program
+
+    Once we have converted text to the whale language, the result is sung slowly as it a custom in the ocean.
+    To accomplish translation, we can use our knowledge of loops.
