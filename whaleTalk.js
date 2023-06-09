@@ -8,7 +8,9 @@ for (let inputIndex = 0; inputIndex < input.length; inputIndex++) {
     // console.log(`vowelsIndex is ${vowelsIndex}`);
 
     if (input[inputIndex] === vowels[vowelsIndex]) {
-      console.log(input[inputIndex]);
+      // console.log(input[inputIndex]);
+      resultArray.push(input[inputIndex]);
     }
   }
 }
+console.log(resultArray);
