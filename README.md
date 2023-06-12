@@ -62,3 +62,5 @@ Write a function that will check if two given characters are the same case.
 
     Once we have converted text to the whale language, the result is sung slowly as it a custom in the ocean.
     To accomplish translation, we can use our knowledge of loops.
+
+    Grammar Checker - CODEACADEMY ex Iterators
