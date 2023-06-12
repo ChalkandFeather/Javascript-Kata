@@ -64,3 +64,4 @@ Write a function that will check if two given characters are the same case.
     To accomplish translation, we can use our knowledge of loops.
 
     Grammar Checker - CODEACADEMY ex Iterators
+    Use iteration over arrays to gather information and improve the quality of a paragraph
