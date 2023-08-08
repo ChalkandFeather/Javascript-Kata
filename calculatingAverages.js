@@ -1,11 +1,14 @@
-function oddOrEven(number) {
-  if (number < 0) {
-    throw new Error("number must be a positive integer");
-  }
-  if (number % 2 === 0) return "Even";
-  else {
-    return "Odd";
+function Calculator() {
+  if (arguments.length === 0) {
+    return 0; // If no arguments, return 0
+  } else {
+    let total = 0;
+    for (let i = 0; i < arguments.length; i++) {
+      total += arguments[i]; // Add up all the arguments
+    }
+
+    return total / arguments.length; // Calculate and return the average
   }
 }
 
-module.exports = oddOrEven;
+module.exports = Calculator;
