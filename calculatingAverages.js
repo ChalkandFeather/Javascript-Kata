@@ -1,4 +1,4 @@
-var Calculator = {
+const Calculator = {
   average: function () {
     if (arguments.length === 0) {
       return 0; // If no arguments, return 0
