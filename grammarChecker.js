@@ -7,4 +7,5 @@ let misspelledWord = "beautifull";
 let badWord = "freaking";
 
 count = 0;
+storyWords.forEach(() => {});
 console.log(storyWords.join(" "));
